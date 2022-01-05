@@ -1,66 +1,67 @@
 body{
-    font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-family: 'Lato', sans-serif;;
 }
 h1{
     font-size: 45px;
 }
-.my-name{
+p{
+    font-weight:500;
+}
+.myname{
     color: orange;
 }
-.easy-section{
+.top-section{
+    
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dubble-section{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .half-width{
-    width: 50%;
     padding-left: 5%;
+    width: 50%;
 }
 .half-width img{
     width: 80%;
 }
-.link-button{
+.hire-me{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 40px;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(Orange, tomato);
     color: white;
-    font-weight: 700;
-    border-radius: 5px;
+    font-weight: 500;    
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-.middle-banner{
+.middle-section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.last-section{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
-    
-}
-.ex-section{
+
+.Experiences{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-#left-1{
+.last-section{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray; 
+    box-sizing: border-box;
+}
+#bottom-left{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
-#left-2{
+#bottom-right{
     border-left: 7px solid;
-    border-image: linear-gradient(gray, tomato);
+    border-image: linear-gradient(red, black);
     border-image-slice: 1;
-}
-footer p{
-    text-align: center;
 }
